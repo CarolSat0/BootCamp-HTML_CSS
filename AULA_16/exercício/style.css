@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/* :root{
+    
+} */
+div#forma{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: black;
+    cursor: pointer;
+    margin: 30px auto;
+}
+main>#forma:hover{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}

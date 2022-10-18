@@ -1,0 +1,2 @@
+1-EM: procura a unidade de medida do pai mais proximo. REM:procura no :root
+2-geralmente é criado no :root. "--nome_da_var: valor"

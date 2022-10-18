@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="style2.css">
+    <title>Meu anime</title>
+</head>
+<body>
+    <header class="flex" id="top-header">
+        <h1 class="flex">Meu anime</h1>
+        <nav id="menu" class="flex">
+            <ul id="list-menu" class="flex">
+                <li class="flex item"><a href="#" class="flex go"><span class="material-symbols-outlined icons">
+                    mail
+                    </span>Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2 class="titulo">STUDIO GHIBLI</h2>
+        <section id="section-cards" class="flex">
+            <div class="card">
+                <figure class="card-img-ghibli">
+                    <img class="img-ghibli" src="imagens/Capa Chihiro.jpg" alt="Chihiro">
+                </figure>
+                <h3 class="nome_filme">A viagem de Chihiro</h3>
+                <form name="controle-filme" class="flex formfilme">
+                    <div>    
+                        <label class="flex" for="Assistir">Assistir
+                            <input type="radio" name="chihiro" id="Assistir" value="Assistir">
+                        </label>
+                        <label class="flex" for="Assistindo">Assistindo
+                            <input type="radio" name="chihiro" id="Assistindo" value="Assistindo">
+                        </label>
+                        <label class="flex" for="Assistido">Assistido
+                            <input type="radio" name="chihiro" id="Assistido" value="Assistido">
+                        </label>
+                        <input type="button" value="Escolher" class="btn">
+                    </div>
+                </form>
+            </div>
+
+            <div class="card">
+                <figure class="card-img-ghibli">
+                    <img class="img-ghibli" src="imagens/Capa kiki.jpg" alt="GHIBLI">
+                </figure>
+                <h3 class="nome_filme">O serviço de entrega da Kiki</h3>
+                <form name="controle-filme" class="flex formfilme">
+                    <div>
+                        <label class="flex" for="Assistir">Assistir
+                            <input type="radio" name="kiki" id="Assistir" value="Assistir">
+                        </label>
+                        <label class="flex" for="Assistindo">Assistindo
+                            <input type="radio" name="kiki" id="Assistindo" value="Assistindo">
+                        </label>
+                        <label class="flex" for="Assistido">Assistido
+                            <input type="radio" name="kiki" id="Assistido" value="Assistido">
+                        </label>
+                        <input type="button" value="Escolher" class="btn">
+                    </div>
+                </form>
+            </div>
+
+            <div class="card">
+                <figure class="card-img-ghibli">
+                    <img class="img-ghibli" src="imagens/Capa Totoro.jpg" alt="GHIBLI">
+                </figure>
+                <h3 class="nome_filme">Meu vizinho Totoro</h3>
+                <form name="controle-filme" class="flex formfilme">
+                    <div>
+                        <label class="flex" for="Assistir">Assistir
+                            <input type="radio" name="totoro" id="Assistir" value="Assistir">
+                        </label>
+                        <label class="flex" for="Assistindo">Assistindo
+                            <input type="radio" name="totoro" id="Assistindo" value="Assistindo">
+                        </label>
+                        <label class="flex" for="Assistido">Assistido
+                            <input type="radio" name="totoro" id="Assistido" value="Assistido">
+                        </label>
+                        <input type="button" value="Escolher" class="btn">
+                    </div>
+                </form>
+            </div>
+    
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>

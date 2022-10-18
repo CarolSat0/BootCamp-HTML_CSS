@@ -1,0 +1,15 @@
+main{
+    width: 100vw;
+    height: auto;
+    background-color: #B39DDB;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+}
+ul li{
+    /* margin: 0 auto; */
+    padding: 5px;
+}

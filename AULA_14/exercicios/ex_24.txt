@@ -1,0 +1,3 @@
+1- o PADDING PROPORCIONA O PREENCHIMENTO INTERNO
+2- não, por padrao é statick
+3- uma das é se a imagem não for carregada é que ira ter a descrição. outro é para a pessoa que tem deficiencia visual consegue entender qual a imagem.

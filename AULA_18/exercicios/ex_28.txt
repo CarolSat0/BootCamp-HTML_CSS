@@ -1,0 +1,2 @@
+1- Pode ser feio por meio do deve tools, seleciona o elemento root ou body para ver a fonte (geralmente é 16 ou 18)
+2- não, é apenas virtual
